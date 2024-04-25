@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SM Car Agency - Services</title>
+    <link rel="stylesheet" href="https://unpkg.com/swiper@8/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"> 
+    <link rel="stylesheet" href="style.css">
+   
+    <style>
+        /* Add custom styles here */
+        body {
+            font-size: 18px;
+            background-color: aquamarine;
+            background-size: cover;
+            background-repeat: no-repeat;
+            background-position: center;
+            /* Increased font size */
+        }
+        header {
+            background-color: #ffffff;
+            color: #000;
+            padding: 30px;
+            text-align: center;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+        .service {
+            background-color: #f4f4f4;
+            padding: 20px;
+            margin-bottom: 20px;
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+            display: flex;
+            align-items: center;
+            animation: slide-up 0.5s ease-out; /* Animation for service elements */
+        }
+        .service img {
+            max-width: 200px;
+            margin-right: 20px;
+            border-radius: 5px;
+        }
+        h1, h2 {
+            text-align: center;
+            margin-top: 0;
+        }
+        /* Additional styles for button */
+        .button {
+            text-align: center;
+            margin-top: 20px;
+        }
+        .button a {
+            display: end;
+            background-color: #4CAF50;
+            border: none;
+            color: white;
+            padding: 10px 20px;
+            text-align: center;
+            text-decoration: none;
+            font-size: 16px;
+            margin: 10px 2px;
+            cursor: pointer;
+            border-radius: 5px;
+        }
+
+        /* Animation keyframes */
+        @keyframes slide-up {
+            from {
+                opacity: 0;
+                transform: translateY(20px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+    </style>
+</head>
+<body>
+    <header class="header">
+        <section class="flex">
+            <a class="logo">
+                <img src="img4.jpg" height="100px" width="180px">
+            </a>  
+            <h1>SM Car Agency</h1>
+            <nav>
+                <a href="index.html">Home</a> |
+                <a href="about.html">About</a> |
+                <a href="services.html">Services</a> |
+                <a href="contact.html">Contact Us</a>
+            </nav>
+        </section>
+    </header>
+
+    <div class="container">
+        
+        <div class="service">
+            <img src="service1.jpg" alt="Service 1">
+            <p>Best Resale Value - Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+        </div>
+        <div class="service">
+            <img src="service2.jpg" alt="Service 2">
+            <p>Affordable - Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+        <div class="service">
+            <img src="service3.jpg" alt="Service 3">
+            <p>Variety - Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+        </div>
+       <footer> <div class="button">
+            <a href="Services.html">See All Services</a>
+        </div>
+        </footer>
+    </div>
+
+    <script>
+        // You can add JavaScript for additional animations or interactions here
+    </script>
+</body>
+</html>

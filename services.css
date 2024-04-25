@@ -1,0 +1,74 @@
+/* style.css */
+
+/* Resetting default margin and padding */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Setting font family and size */
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+}
+
+/* Styling header */
+header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+}
+
+.logo img {
+    max-width: 150px;
+    height: auto;
+}
+
+/* Styling navigation */
+.main ul {
+    list-style: none;
+}
+
+.main ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.main ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.main ul li.active a {
+    font-weight: bold;
+}
+
+/* Styling title */
+.title {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Styling services section */
+.services {
+    padding: 20px;
+}
+
+.service {
+    margin-bottom: 20px;
+}
+
+.service h2 {
+    color: #333;
+}
+
+/* Styling footer */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    text-align: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
